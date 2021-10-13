@@ -7,7 +7,7 @@
 # @lc code=start
 from typing import List
 class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:    #在函数传参中指定数据类型要typing模块
         hash={}     #创建一个字典用来存放列表中数字和数字所在索引
         j=-1        #j用来返回数字所在索引
         for ind,num in enumerate(nums):   #enumerate返回可迭代对象的值和索引('索引'，'值')
