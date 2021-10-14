@@ -5,7 +5,7 @@
 #
 
 # @lc code=start
-class Solution:
+class Solution:  
     def reverse(self, x: int) -> int:
         if -10 < x < 10:     #x在正负10之内直接返回
             return x
